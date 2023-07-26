@@ -1,70 +1,49 @@
-import React from "react";
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ShieldCheckIcon,
-  CurrencyDollarIcon,
-  SunIcon,
-  UserGroupIcon,
-  ChatIcon,
-} from "@heroicons/react/outline";
+import { RiSafe2Line, RiMoneyDollarCircleLine, RiEmotionHappyLine, RiMapPin2Line, RiUserHeartLine } from 'react-icons/ri';
+import { RiTimeLine } from 'react-icons/ri';
+import { RiCommunityLine } from 'react-icons/ri';
 
 const features = [
   {
-    name: "Reliability",
+    name: 'Safety First',
     description:
-      "On-time, every time! Our fleet of well-maintained buses ensures efficient and punctual daily commutes to work, school, or wherever you need to go.",
-    icon: ArrowPathIcon,
+      'Ryde 24 ensures your safety with our team of well-trained and licensed drivers. Enjoy peace of mind knowing you are in safe hands.',
+    icon: RiSafe2Line,
   },
   {
-    name: "Safety First",
+    name: 'Reliable Commutes',
     description:
-      "Your well-being matters. Rest assured with our highly trained and licensed drivers, along with buses that meet the highest safety standards for a secure daily commute.",
-    icon: FingerPrintIcon,
+      'With our extensive fleet of buses, Ryde 24 offers reliable daily commutes to work, school, or wherever you need to go.',
+    icon: RiTimeLine,
   },
   {
-    name: "Cost-Effectiveness",
+    name: 'Comfortable Rides',
     description:
-      "Budget-friendly commutes without compromising on quality. Discover a range of fare options, discounts, and special plans for regular travelers on their daily commutes.",
-    icon: CloudArrowUpIcon,
+      'Gone are the days of crowded busses and taxis. Experience comfort like never before with designated seats for all commuters. Pay ahead of time to focus on other important things.',
+    icon: RiSafe2Line,
   },
   {
-    name: "Comfort and Convenience",
+    name: 'Affordable Prices',
     description:
-      "Gone are the days of crowded buses and taxis! Enjoy a relaxing journey with designated seats in our clean, air-conditioned buses, and pay ahead of time for a hassle-free daily commute.",
-    icon: LockClosedIcon,
+      'We believe commuting shouldn’t be a burden on your wallet. Enjoy cost-effective rides with transparent pricing and no hidden fees.',
+    icon: RiMoneyDollarCircleLine,
   },
   {
-    name: "Enhanced Security",
+    name: 'Happy Commuters',
     description:
-      "Peace of mind during your daily commute with our advanced security measures, including real-time tracking, emergency assistance, and 24/7 customer support.",
-    icon: ShieldCheckIcon,
+      'We value our commuters and their happiness is our priority. Enjoy friendly service and a smile every time you ride with Ryde 24.',
+    icon: RiEmotionHappyLine,
   },
   {
-    name: "Affordable Fares",
+    name: 'Convenient Routes',
     description:
-      "Say goodbye to fare hikes! We offer transparent and competitive pricing, ensuring that your daily commute remains cost-effective and budget-friendly.",
-    icon: CurrencyDollarIcon,
+      'Ryde 24 offers a network of convenient routes to cover all major destinations. Plan your journey effortlessly with our user-friendly app.',
+    icon: RiMapPin2Line,
   },
   {
-    name: "Weatherproof Rides",
+    name: 'Community Driven',
     description:
-      "Stay comfortable rain or shine! Our buses are equipped to handle all weather conditions, providing a reliable and safe commute year-round.",
-    icon: SunIcon,
-  },
-  {
-    name: "Community Connection",
-    description:
-      "Join a vibrant community of commuters! Share experiences, make new connections, and stay informed with our interactive chat platform.",
-    icon: UserGroupIcon,
-  },
-  {
-    name: "Customer Support",
-    description:
-      "Your satisfaction is our priority! Reach out to our friendly and dedicated customer support team for any assistance or queries related to your daily commute.",
-    icon: ChatIcon,
+      'Join a community of commuters who share a passion for efficient and sustainable transportation. Together, we make a difference.',
+    icon: RiCommunityLine,
   },
 ];
 
@@ -101,7 +80,8 @@ export default function Features() {
                   {feature.name}
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  {feature.description} 😊🚌🚀
+                  {feature.description}
+                  {/* 😊🚌🚀 */}
                 </dd>
               </div>
             ))}
@@ -111,3 +91,75 @@ export default function Features() {
     </div>
   );
 }
+
+// import React from "react";
+// // import {
+// //   ArrowPathIcon,
+// //   CloudArrowUpIcon,
+// //   FingerPrintIcon,
+// //   LockClosedIcon,
+// //   ShieldCheckIcon,
+// //   CurrencyDollarIcon,
+// //   SunIcon,
+// //   UserGroupIcon,
+// //   ChatIcon,
+// // } from "@heroicons/react/outline";
+
+// const features = [
+//   {
+//     name: "Reliability",
+//     description:
+//       "On-time, every time! Our fleet of well-maintained buses ensures efficient and punctual daily commutes to work, school, or wherever you need to go.",
+//    icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Safety First",
+//     description:
+//       "Your well-being matters. Rest assured with our highly trained and licensed drivers, along with buses that meet the highest safety standards for a secure daily commute.",
+//      icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Cost-Effectiveness",
+//     description:
+//       "Budget-friendly commutes without compromising on quality. Discover a range of fare options, discounts, and special plans for regular travelers on their daily commutes.",
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Comfort and Convenience",
+//     description:
+//       "Gone are the days of crowded buses and taxis! Enjoy a relaxing journey with designated seats in our clean, air-conditioned buses, and pay ahead of time for a hassle-free daily commute.",
+//      icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Enhanced Security",
+//     description:
+//       "Peace of mind during your daily commute with our advanced security measures, including real-time tracking, emergency assistance, and 24/7 customer support.",
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Affordable Fares",
+//     description:
+//       "Say goodbye to fare hikes! We offer transparent and competitive pricing, ensuring that your daily commute remains cost-effective and budget-friendly.",
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Weatherproof Rides",
+//     description:
+//       "Stay comfortable rain or shine! Our buses are equipped to handle all weather conditions, providing a reliable and safe commute year-round.",
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Community Connection",
+//     description:
+//       "Join a vibrant community of commuters! Share experiences, make new connections, and stay informed with our interactive chat platform.",
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: "Customer Support",
+//     description:
+//       "Your satisfaction is our priority! Reach out to our friendly and dedicated customer support team for any assistance or queries related to your daily commute.",
+//      icon: LockClosedIcon,
+//   },
+// ];
+
+//
