@@ -35,7 +35,7 @@ export default function Goals() {
 
         <>
         
-        <div className="bg-gray-100 py-16">
+        <div className=" bg-slate-100  rounded-lg   text-left pt-20 sm:pt-5">
 <div className="mx-auto max-w-7xl px-6 lg:px-8">
   <div className="mx-auto max-w-2xl lg:text-center">
     <h2 className="text-base font-semibold leading-7 text-indigo-600">Our Goals</h2>

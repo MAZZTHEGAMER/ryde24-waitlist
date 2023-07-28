@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -21,11 +22,16 @@ export default function MyHeader() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Ryde24</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+              <FontAwesomeIcon
+                icon="fa-duotone fa-bus"
+                bounce
+                style={{
+                  "--fa-primary-color": "#4f46e5",
+                  "--fa-secondary-color": "#180070",
+                  "--fa-secondary-opacity": "1",
+                }}
               />
+             {/* <link rel=icon href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/rocket.svg> */}
             </a>
           </div>
           <div className="flex lg:hidden">

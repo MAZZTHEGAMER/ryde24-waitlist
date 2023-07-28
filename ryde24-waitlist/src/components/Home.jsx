@@ -1,7 +1,8 @@
 import { useState } from "react";
 import MyHeader from "./Header";
 import Waitlist from "./Waitlistform";
-import { MapPinIcon } from "@heroicons/react/24/outline";
+import Features from "./Features";
+
 
 export default function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -59,6 +60,8 @@ export default function Home() {
               >
                 Start Cummuting
               </a> */}
+
+              
               <a
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"
@@ -68,6 +71,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <Features />
+
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"

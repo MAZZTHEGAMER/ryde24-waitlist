@@ -1,6 +1,8 @@
 import { RiSafe2Line, RiMoneyDollarCircleLine, RiEmotionHappyLine, RiMapPin2Line, RiUserHeartLine } from 'react-icons/ri';
 import { RiTimeLine } from 'react-icons/ri';
 import { RiCommunityLine } from 'react-icons/ri';
+import Goals from './Goals';
+
 
 const features = [
   {
@@ -47,15 +49,19 @@ const features = [
   },
 ];
 
+
+
 export default function Features() {
   return (
-    <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <>
+    <div className=" text-left pt-20 sm:pt-5">
+      <div className="mx-auto max-w-7xl lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
+          <hr />
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
             Your Ultimate Daily Commute Companion
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl pt-2 font-bold tracking-tight text-gray-900 sm:text-4xl">
             Introducing Ryde 24
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -89,7 +95,14 @@ export default function Features() {
         </div>
       </div>
     </div>
-  );
+
+     <Goals />
+    
+
+      </>
+      
+    
+  )
 }
 
 // import React from "react";
