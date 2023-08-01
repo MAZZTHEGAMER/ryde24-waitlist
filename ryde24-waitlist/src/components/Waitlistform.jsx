@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { MapPinIcon } from "@heroicons/react/24/outline";
 
 function Waitlist() {
   const [waitlist, setWaitlist] = useState("");
