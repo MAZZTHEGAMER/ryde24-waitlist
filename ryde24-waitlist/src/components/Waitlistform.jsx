@@ -34,7 +34,7 @@ function Waitlist() {
         <span className="inline-block"></span> Be The First To know when we Lunch 🚀
       </label>
       <div className="relative">
-        <form action="" method="post">
+        <form action=""  netlify>
            <input
           type="email"
           name="waitlist"
