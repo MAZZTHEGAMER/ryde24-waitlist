@@ -1,17 +1,16 @@
 import "./App.css";
-// import Features from "./components/Features";
-// import Myheader from './components/Header'
+
 import Home from './components/Home'
 // import Waitlist from './components/Waitlistform'
-// import Goals from './components/Goals'
+import ThankyouModal from './components/ThankyouModal'
+
 
 
 function App() {
   return (
     <>
-      <Home/>
-      {/* <Goals/> */}
-      {/* <Features/> */}
+      <Home />
+      {/* <ThankyouModal></ThankyouModal> */}
       
     </>
   );

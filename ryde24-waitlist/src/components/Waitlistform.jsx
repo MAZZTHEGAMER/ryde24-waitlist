@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MapPinIcon } from "@heroicons/react/24/outline";
 
 function Waitlist() {
-  const [destination, setDestination] = useState("");
+  const [waitlist, setWaitlist] = useState("");
   const [showButton, setShowButton] = useState(false);
 
   const showSearchButton = () => {
@@ -15,35 +15,36 @@ function Waitlist() {
 
   const Waitlist = () => {
     // Your search logic here
-    console.log("Search destination:", destination);
+    console.log("Join waitlist:", waitlist);
   };
 
 
   // Function to toggle the custom location form
-  const toggleCustomLocationForm = () => {
-    setShowCustomLocation(!showCustomLocation);
-  };
+  // const toggleCustomLocationForm = () => {
+  //   setShowCustomLocation(!showCustomLocation);
+  // };
 
   return (
     
     <div className="col-span-full mt-9">
       <label
-        htmlFor="Destination"
+        htmlFor="waitlist"
         className="block text-lg font-semibold leading-6 text-indigo-600 mb-2 "
       >
         <span className="inline-block"></span> Be The First To know when we Lunch 🚀
       </label>
       <div className="relative">
-        <input
-          type="text"
-          name="Destination"
-          id="Destination"
+        <form action="" method="post">
+           <input
+          type="email"
+          name="waitlist"
+          id="waitlist"
           autoComplete="off"
           className="block w-full h-12 rounded-lg border-2 border-indigo-200 px-4 text-gray-900 placeholder-gray-400 focus:outline-none focus:border-indigo-400 transition duration-300 ease-in-out"
           placeholder="Join The Waitlist? 🚌"
-          value={destination}
+          value={waitlist}
           onChange={(e) => {
-            setDestination(e.target.value);
+            setWaitlist(e.target.value);
             if (e.target.value.trim() !== "") {
               showSearchButton();
             } else {
@@ -72,6 +73,8 @@ function Waitlist() {
             </svg>
           </button>
         )}
+        </form>
+       
       </div>
     </div>
   );

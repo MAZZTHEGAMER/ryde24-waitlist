@@ -3,7 +3,6 @@ import MyHeader from "./Header";
 import Waitlist from "./Waitlistform";
 import Features from "./Features";
 
-
 export default function Home() {
   const [showContent, setShowContent] = useState(false);
 
@@ -38,7 +37,7 @@ export default function Home() {
             <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Let's{" "}
               <span className="text-indigo-600">
-                ryd! <br />{" "}
+                ryde! <br />{" "}
               </span>
             </h1>
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:pt-3">
@@ -47,7 +46,7 @@ export default function Home() {
 
             {/* search components */}
             <p className="mt-6 text-sm leading-6 text-gray-600 sm:text-lg">
-              ryd is a hassle-free urban commute solution that provides
+              ryde is a hassle-free urban commute solution that provides
               comfortable, affordable, and safe rides to your destination.
             </p>
 
@@ -61,7 +60,6 @@ export default function Home() {
                 Start Cummuting
               </a> */}
 
-              
               <a
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"
