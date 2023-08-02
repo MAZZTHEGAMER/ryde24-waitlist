@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+// import { XMarkIcon } from "@heroicons/react/24/outline";
+import { RxHamburgerMenu } from "react-icons/rx";
+// import { BsBusFront } from "react-icons/bs";
+import { IoCloseSharp } from "react-icons/io5";
+// import {FcBiohazard} from react-icons/fc
 // import { FontAwesomeIcon } from '@fortawesoe/react-fontawesome'
 
 const navigation = [
@@ -22,13 +26,10 @@ export default function MyHeader() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="italic text-2xl bg-gray-200 rounded p-1  text-indigo-600">
-              ryde!
+              {/* <BsBusFront /> */}
+              ryde! 
             </span>
-            {/* <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                /> */}
+           
             {/* <FontAwesomeIcon icon="fa-solid fa-bus" bounce style={{color: "#4f46e5",}} /> */}
           </a>
         </div>
@@ -39,7 +40,7 @@ export default function MyHeader() {
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            <RxHamburgerMenu className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
@@ -87,7 +88,7 @@ export default function MyHeader() {
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
-              <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+              <IoCloseSharp className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
           <div className="mt-6 flow-root">
