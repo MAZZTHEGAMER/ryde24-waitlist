@@ -39,8 +39,6 @@ const scrollToTop = () => {
 export default function Goals() {
   return (
     <>
-     
-
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
@@ -148,9 +146,15 @@ export default function Goals() {
                   Join our waitlist today and be the first to know about our
                   exciting offers and new features.
                 </p>
-                <button
+                {/* <button
                   onClick={scrollToTop}
                   className="mt-8 px-6 py-3 rounded-md text-white font-medium bg-indigo-600 hover:bg-indigo-700 transition-colors duration-300"
+                >
+                  Join the Waitlist 🚀
+                </button> */}
+                <button
+                  onClick={scrollToTop}
+                  className="mt-8 px-6 py-3 rounded-md text-white font-medium bg-gradient-to-tr from-[#ff73ada1] to-[#8981ff] bg-opacity-30 hover:bg-opacity-100 transition-all duration-300"
                 >
                   Join the Waitlist 🚀
                 </button>
