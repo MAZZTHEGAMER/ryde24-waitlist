@@ -22,11 +22,20 @@ export default function MyHeader() {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="italic text-2xl bg-gray-200 rounded p-1  text-indigo-600">
-              {/* <BsBusFront /> */}
+            {/* <span className="italic text-2xl bg-gray-200 rounded p-1  text-indigo-600">
+             
               ryde! 
+            </span> */}
+            {/* <span className="text-xl italic bg-purple-100 bg-opacity-90 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
+              <span className="font-semibold text-2xl">ryde</span>!
+            </span> */}
+            <span className="text-xl bg-gradient-to-r from-indigo-100 via-indigo-100 to-purple-100 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
+              <span className="font-semibold text-2xl">ryde</span>!
             </span>
-           
+            {/* <span className="text-xl bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
+              <span className="font-semibold text-2xl">rydee</span>!
+            </span> */}
+
             {/* <FontAwesomeIcon icon="fa-solid fa-bus" bounce style={{color: "#4f46e5",}} /> */}
           </a>
         </div>
@@ -67,9 +76,12 @@ export default function MyHeader() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="italic text-2xl bg-gray-200 rounded p-1  text-indigo-600">
+              {/* <span className="italic text-2xl bg-gray-200 rounded p-1  text-indigo-600">
                 Ryde24
-              </span>
+              </span> */}
+              <span className="text-xl bg-gradient-to-r from-indigo-100 via-indigo-100 to-purple-100 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
+              <span className="font-semibold text-2xl">ryde</span>!
+            </span>
 
               {/* <img
                   className="h-8 w-auto"
