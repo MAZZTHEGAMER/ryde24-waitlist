@@ -58,7 +58,7 @@ function Waitlist() {
               type="submit"
           >
             <svg
-              className="h-6 w-6 text-blue-600"
+              className="h-6 w-6 text-indigo-600"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

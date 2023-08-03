@@ -29,7 +29,7 @@ export default function MyHeader() {
             {/* <span className="text-xl italic bg-purple-100 bg-opacity-90 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
               <span className="font-semibold text-2xl">ryde</span>!
             </span> */}
-            <span className="text-xl bg-gradient-to-r from-indigo-100 via-indigo-100 to-purple-100 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
+            <span className="text-xl italic bg-gradient-to-r from-indigo-100 via-indigo-100 to-purple-100 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
               <span className="font-semibold text-2xl">ryde</span>!
             </span>
             {/* <span className="text-xl bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 text-indigo-600 px-4 py-2 rounded-lg shadow-md">
