@@ -33,7 +33,7 @@ function Waitlist() {
         <span className="inline-block"></span> Be The First To know when we Lunch 🚀
       </label>
       <div className="relative">
-        <form action=""  netlify>
+        <form action=""   netlify>
            <input
           type="email"
           name="waitlist"
@@ -54,7 +54,8 @@ function Waitlist() {
         {showButton && (
           <button
             className="absolute inset-y-0 right-0 flex items-center pr-4"
-            onClick={Waitlist}
+              onClick={Waitlist}
+              type="submit"
           >
             <svg
               className="h-6 w-6 text-blue-600"
