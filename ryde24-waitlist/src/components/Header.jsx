@@ -1,10 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
-// import { XMarkIcon } from "@heroicons/react/24/outline";
 import { RxHamburgerMenu } from "react-icons/rx";
-// import { BsBusFront } from "react-icons/bs";
 import { IoCloseSharp } from "react-icons/io5";
-// import {FcBiohazard} from react-icons/fc
 // import { FontAwesomeIcon } from '@fortawesoe/react-fontawesome'
 
 const navigation = [
