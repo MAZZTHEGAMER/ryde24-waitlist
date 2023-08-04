@@ -5,7 +5,7 @@ export default function Test() {
         name="contact"
         netlify
         class="max-w-md mx-auto p-4 bg-white rounded shadow-md"
-        action="POST"
+        method="POST"
       >
         <p class="mb-4">
           <label for="name" class="block text-gray-700 font-semibold">
