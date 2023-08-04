@@ -64,7 +64,7 @@ export default function Home() {
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
-                Read more about us <span aria-hidden="true"></span>
+                Read more about us below<span aria-hidden="true"></span>
               </a>
             </div>
           </div>
