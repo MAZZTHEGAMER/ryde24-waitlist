@@ -36,7 +36,7 @@ function Waitlist() {
         <form  name="Waitlistform" action="POST" data-netlify="true">
            <input
           type="email"
-          name="waitlist"
+          name="waitlist1"
           id="waitlist"
           autoComplete="off"
           className="block w-full h-12 rounded-lg border-2 border-indigo-200 px-4 text-gray-900 placeholder-gray-400 focus:outline-none focus:border-indigo-400 transition duration-300 ease-in-out"
