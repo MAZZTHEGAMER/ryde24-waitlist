@@ -9,8 +9,8 @@ import ThankyouModal from './components/ThankyouModal'
 function App() {
   return (
     <>
-      <Home />
-      {/* <Test /> */}
+      {/* <Home /> */}
+      <Test />
       {/* <ThankyouModal></ThankyouModal> */}
       
     </>
