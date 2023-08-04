@@ -9,7 +9,7 @@ import ThankyouModal from './components/ThankyouModal'
 function App() {
   return (
     <>
-      <Home />
+      {/* <Home /> */}
       {/* <Test /> */}
       {/* <ThankyouModal></ThankyouModal> */}
       
