@@ -38,7 +38,7 @@ function Waitlist() {
           data-netlify="true"
           netlify-honeypot="bot-field"
           id="waitlistid"
-          onSubmit="submit"
+          
         >
           <input type="hidden" name="form-name" value="Waitlistform" />
           <div>
