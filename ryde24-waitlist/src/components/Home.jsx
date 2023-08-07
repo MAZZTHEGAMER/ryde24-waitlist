@@ -10,7 +10,7 @@ export default function Home() {
     <div className="bg-white">
       <MyHeader />
 
-      <div className="relative isolate px-6 pt-14 lg:px-8 sm:pt-14 ">
+      <div className="relative isolate px-3 pt-14 lg:px-8 sm:pt-14 ">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
