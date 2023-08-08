@@ -54,7 +54,7 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-function ContactForm() {
+function Test() {
   const [state, handleSubmit] = useForm("xwkdlppg");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;

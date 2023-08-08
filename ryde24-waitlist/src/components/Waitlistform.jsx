@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {useForm, ValidationError} from '@formspree/react';
 
 function Waitlist() {
@@ -8,17 +8,17 @@ function Waitlist() {
   const showSearchButton = () => {
     setShowButton(true);
   };
-  
+  // function Waitlistingform() {
   const hideSearchButton = () => {
     setShowButton(false);
   };
   
-  const Waitlist = () => {
-    // Your search logic here
-    console.log("Join waitlist:", waitlist);
-  };
+  // const Waitlist = () => {
+  //   // Your search logic here
+  //   console.log("Join waitlist:", waitlist);
+  // };
   
-  const [state, handleSubmit] = useForm("xaylqjzq");
+  const [state, handleSubmit] = useForm("xwkdlppg");
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   }
@@ -28,7 +28,7 @@ function Waitlist() {
       <div className="relative">
         <form
           name="Waitlistform"
-          
+          action="https://formspree.io/f/xwkdlppg"
           onSubmit={handleSubmit}
           id="waitlistid"
         >
