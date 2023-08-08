@@ -60,9 +60,10 @@ function ContactForm() {
       return <p>Thanks for joining!</p>;
   }
   return (
-      <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} action='https://formspree.io/f/xwkdlppg'>
+     
       <label htmlFor="email">
-        Email Address
+        Email Addressss
       </label>
       <input
         id="email"
