@@ -88,7 +88,7 @@ function Waitlist() {
 }
   // function waitlist() {
   //   return (
-  //     <waitlist />
+  //     <waitlist/>
   //   );
   // }
 
