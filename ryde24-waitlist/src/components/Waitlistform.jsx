@@ -28,7 +28,7 @@ function Waitlist() {
       <div className="relative">
         <form
           name="Waitlistform"
-          method="post"
+          
           onSubmit={handleSubmit}
           id="waitlistid"
         >
