@@ -92,7 +92,7 @@ function Test() {
 }
 function Test() {
   return (
-    <ContactForm />
+    <Test />
   );
 }
 export default Test;

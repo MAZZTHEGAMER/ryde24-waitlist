@@ -8,16 +8,12 @@ function Waitlist() {
   const showSearchButton = () => {
     setShowButton(true);
   };
-  // function Waitlistingform() {
   const hideSearchButton = () => {
     setShowButton(false);
   };
   
-  // const Waitlist = () => {
-  //   // Your search logic here
-  //   console.log("Join waitlist:", waitlist);
-  // };
   
+  // function Waitlistingform() {
   const [state, handleSubmit] = useForm("xwkdlppg");
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
@@ -90,10 +86,10 @@ function Waitlist() {
     </div>
   );
 }
-// function waitlist() {
-//   return (
-//     <waitlist />
-//   );
-    
+  // function waitlist() {
+  //   return (
+  //     <waitlist />
+  //   );
+  // }
 
-export default Waitlist;
+  export default Waitlist;
