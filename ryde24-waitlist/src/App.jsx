@@ -9,8 +9,8 @@ import Home from './components/Home'
 function App() {
   return (
     <>
-      <Home />
-      {/* <Test /> */}
+      {/* <Home /> */}
+      <Test />
       {/* <ThankyouModal></ThankyouModal> */}
       
     </>
