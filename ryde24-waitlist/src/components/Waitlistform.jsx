@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import ThankYouModal from "./ThankyouModal";
 import {useForm, ValidationError} from '@formspree/react';
 
 function Waitlist() {
@@ -16,7 +17,13 @@ function Waitlist() {
   // function Waitlistingform() {
   const [state, handleSubmit] = useForm("xwkdlppg");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return (
+      <p className="text-green-600 text-lg font-semibold mt-4">
+        🎉 Congratulations, you're officially on board! 🚌✨
+        <br />
+        Get ready to embark on a journey of convenience and comfort with Ryde!
+      </p>
+    );
   }
 
   return (
