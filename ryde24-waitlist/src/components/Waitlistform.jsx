@@ -21,20 +21,20 @@ function Waitlist() {
 
   return (
     <div className="col-span-full mt-9">
-      <div className="relative">
-        <form
-          name="Waitlistform"
-          action="https://formspree.io/f/xwkdlppg"
-          onSubmit={handleSubmit}
-          id="waitlistid"
-        >
-      <label
-        htmlFor="waitlist"
-        className="block text-lg font-semibold leading-6 text-indigo-600 mb-2 "
+    <div className="relative">
+      <form
+        name="Waitlistform"
+        action="https://formspree.io/f/xwkdlppg"
+        onSubmit={handleSubmit}
+        id="waitlistid"
       >
-        <span className="inline-block"></span> Be The First To know when we
-        Lunch 🚀
-      </label>
+        <label
+          htmlFor="waitlist"
+          className="block text-lg font-semibold leading-6 text-indigo-600 mb-2"
+        >
+          Be The First To know when we Launch 🚀
+        </label>
+        <div className="relative">
           <input
             type="email"
             name="waitlist"
@@ -52,16 +52,9 @@ function Waitlist() {
               }
             }}
           />
-           <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
-
           {showButton && (
             <button
-              className="absolute inset-y-0 right-0 flex items-center pr-4"
-        
+              className="absolute inset-y-0 right-0 flex items-center pr-4 top-1/2 transform -translate-y-1/2"
               type="submit"
               disabled={state.submitting}
             >
@@ -81,9 +74,16 @@ function Waitlist() {
               </svg>
             </button>
           )}
-        </form>
-      </div>
+        </div>
+        <ValidationError 
+          prefix="Email" 
+          field="email"
+          errors={state.errors}
+        />
+      </form>
     </div>
+  </div>
+  
   );
 }
   // function waitlist() {
