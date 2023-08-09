@@ -51,6 +51,10 @@ export default function Home() {
             </p>
 
             <Waitlist />
+            <p className="text-center text-gray-700 mt-8">
+              Solving urban transportation challenges in Nigeria, one commute at
+              a time. 🚌🇳🇬
+            </p>
 
             <div className="mt-10 flex items-center justify-center gap-x-6">
               {/* <a
