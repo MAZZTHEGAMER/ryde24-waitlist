@@ -65,11 +65,7 @@ export default function Features() {
             Introducing Ryde 24
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Say goodbye to commuting woes with Ryde 24, the app that
-            revolutionizes your daily travel experience. We've carefully crafted
-            Ryde 24 to cater to the needs of busy commuters like you, providing
-            a seamless, safe, and cost-effective journey every time you step out
-            the door.
+            "Say goodbye to the challenges of your daily commute with Ryde 24! Our app is here to transform your everyday journey. We understand the frustrations that come with daily commuting, and that's why we've designed Ryde 24 to cater to your needs. Enjoy a seamless, safe, and cost-effective commute every time you step out the door."
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
