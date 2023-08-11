@@ -125,7 +125,7 @@ export default function Goals() {
                 adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
               </p> */}
                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                  No server? No problem.
+                  Ryde Anytime, Anywhere.
                 </h2>
                 <p className="mt-6">
                   Our team is dedicated to creating a city where everyone can
